@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="/main/estilos.css">
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <span class="text-primary fs-5 fw-bold">Diseño BS</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index2.html">Inicio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Recetas</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+         </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="email">
+          <button class="btn btn-primary btn-primary-outline-success " type="button">Suscribete</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--Carrousel-->
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="/imagenes/comida1.jpg" class="d-block w-100 img-fluid" alt="paella">
+      </div>
+
+      <div class="carousel-item">
+        <img src="/imagenes/comida2.jpg" class="d-block w-100 img-fluid" alt="fideos">
+      </div>
+
+      <div class="carousel-item">
+        <img src="/imagenes/comida3.jpg" class="d-block w-100 img-fluid" alt="mariscos">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--seccion-->
+  <section class="w-50 mx-auto text-center pt-5" id="intro">
+    <h1 class="p-3 fs-2 border-top border-3">Recetas Para Todos ricas y sencillas</h1>
+    <p class="p-3 fs-4">Recetas Faciles te ayudara a preparar cientos de recetas fáciles y rápidas. Con explicaciones detalladas y fotos paso a paso estos platos siempre salen bien</p>
+  </section>
+   <!--Servicio-->
+  <section class="container-fluid">
+    <div class="row w-75 mx-auto servicio-fila ">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+        <img src="/imagenes/comida4.jpg" alt="fit" width="180" height="160">
+        <div>
+         <h3 class="fs-5 mt-4 px-4 pb-1">Comida Fit</h3>
+         <p class="px-4">La forma más fácil y saludable de cuidarte. Tenemos soluciones prácticas para tus comidas</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+        <img src="/imagenes/comida5.jpg" alt="italiana" width="180" height="160">
+        <div>
+         <h3 class="fs-5 mt-4 px-4 pb-1">Comida Italiana</h3>
+         <p class="px-4">la gastronomía italiana se caracteriza por sus elaboraciones con abundantes verduras, frutas, carnes, pescados, arroz, pastas y panes</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap ">
+        <img src="/imagenes/comida6.jpg" alt="japonesa" width="180" height="160">
+        <div>
+         <h3 class="fs-5 mt-4 px-4 pb-1">Comida Japonesa</h3>
+         <p class="px-4">La cocina japonesa: historia, origen y las mejores recetas. Nos adentramos en una de las gastronomías más cuidadas y sanas que podemos encontrar en el mundo, platos que seducen a todos los sentidos y que enamoran a cualquiera</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap ">
+        <img src="/imagenes/comida7.jpg" alt="mexicana" width="180" height="160">
+        <div>
+         <h3 class="fs-5 mt-4 px-4 pb-1">Comida Mexicana</h3>
+         <p class="px-4">La comida mexicana cuenta con una gran diversidad de platos típicos, donde sus principales ingredientes son el maíz, el cilantro, el chile, el frijol</p>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!--Acerca de nosotros-->
+    <section>
+      <div class="w-75 m-auto text-center" id="equipo">
+        <h1 class="mb-5 fs-2">Cada receta es una Nueva Experiencia</h1>
+        <p>Soluciona el problema de pensar cada día qué hacer de cena con este extenso listado de ideas con platos de todo tipo ideales para despedir el día bien alimentado y sin rastro de estrés.</p>
+      </div>
+      <div class="mt-5 text-center">
+        <img class="img-fluid" src="/imagenes/comida8.jpg" alt="libro" width="350" height="350">
+      </div>
+     <div id="local" class="border-top border-2">
+      <div class="mapa"></div>
+      <div class="wrapper">
+        <h2>Ubicado en</h2>
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+        <p class="fs-5 text-body">Puedes crearte mapas personalizados a través de la web de Maps, y guardarlos para usarlos más tarde o compartirlos con otros usuarios. Puede ser útil, por ejemplo, para marcar todos los pisos que quieres visitar si te vas a cambiar de casa, o tener claro todos los monumentos que quieres visitar en un viaje. </p>
+        <section class="d-flex" id="numeros-local">
+         <div>
+          <p class="text-primary f-5">250</p>
+          <p>Dias de sol</p>
+         </div>
+         <div>
+          <p class="text-primary fs-5">100%</p>
+          <p>Aprobado</p>
+         </div>
+         <div>
+          <p class="text-primary fs-5">24</p>
+          <p>Temperatura</p>
+         </div>
+        </section>
+     </div>
+     
+     </div>
+</body>
+</html>
