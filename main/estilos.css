@@ -57,7 +57,7 @@ display: none;
 /*mapa*/
 
 .mapa{
-  background: url(./imagenes/imagen9.jpg);
+  background: url(/imagenes/imagen9.jpg);
   width: 100%;
   height: 500px;
 }
